@@ -1,5 +1,5 @@
 import axios from "axios";
-const environment = "development";
+const environment = "production";
 export const client = axios.create({
   // eslint-disable-next-line no-undef
   baseURL:
